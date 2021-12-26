@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;;
+  font-size: 100px;
+}
+
+.products {
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+
+.Lvlone{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+
+
+
+/* home
+*/
+.box{
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow:  0 5px 15px rgba(0,0,0,.5);
+  width: 700px;
+  display: flex;
+  margin: 20px 460px;
+}
+
+.img-box{
+  display: flex;
+  width: 294px;
+  height: 180px;
+  margin: 80px 20px 30px 30px;
+}
+
+.content{
+  padding: 20px;
+}
+
+.btns3{
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  padding: 12px 26px;
+  font-size: 20px;
+  margin: 20px 680px 20px 650px;
+}
+
+.btns3:hover{
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
