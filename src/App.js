@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch , Route } from 'react-router-dom';
 import Lvlone from './components/main/Lvlone';
 import Timeline from './components/timeline/Timeline';
 import Products from './components/pages/Products';
