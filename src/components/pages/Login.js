@@ -5,6 +5,7 @@ import FormSignup from './FormLogin';
 export default function SignUp() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+
   function submitForm() {
     setIsSubmitted(true);
   }
